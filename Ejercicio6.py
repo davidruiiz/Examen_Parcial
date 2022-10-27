@@ -35,10 +35,9 @@ def modificar(lista:list):
 
 ejemplo=[2,4,67,453,657,42,456,678,32,1,34,23,4,8,5,7,12,28,64] #creamos la lista
 nueva_lista=modificar(ejemplo)
-print(nueva_lista)
 print('\nEJERCICIO 9\n')
-print('Esta es la lista original:\n lista={}'.format(lista))
-print('Esta es la lista modificada:\n nueva_lista={}'.format(nueva_lista))
+print('Esta es la lista original:\nlista = {}'.format(ejemplo))
+print('Esta es la lista modificada:\nnueva_lista = {}'.format(nueva_lista))
 
 
 
