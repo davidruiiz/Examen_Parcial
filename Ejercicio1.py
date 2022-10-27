@@ -11,3 +11,9 @@ Adjuntar archivo
 '''
 
 
+var_1= "Módulo de Python"
+print(var_1.capitalize())
+print(var_1.lower())
+print(len(var_1))
+calculo=len(var_1)/7
+print(calculo.__round__(4))
