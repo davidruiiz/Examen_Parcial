@@ -31,7 +31,7 @@ try:
         numero=int(numero/10)
         contador2+=1
 except ValueError:
-    print('Error: Debes introducir un número entero.\nPor favor, inténtalo de nuevo')
+    print('Error: Debes introducir un número entero.\nPor favor, inténtalo de nuevo\n')
 
     
 
