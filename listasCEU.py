@@ -18,8 +18,9 @@ valores.pop()#elimina el último elemento
 print(valores)
 valores_repeticion=[]
 for i in valores:
-    if i not in valores:
-        valores_repeticion.append(i)
+    for j in valores_repeticion:
+        if i not in valores:
+            valores_repeticion.append(i)
 
 
 print(valores_repeticion) #En este caso al no haber elementos repetidos la lista es vacía
