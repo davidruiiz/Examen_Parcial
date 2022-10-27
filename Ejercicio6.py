@@ -35,5 +35,12 @@ def modificar(lista:list):
 
 
     lista=[2,4,67,453,657,42,456,678,32,1,34,23,4,8,5,7,12,28,64] #creamos la lista
+    nueva_lista=modificar(lista) 
     
+    print('\nEJERCICIO 9\n')
+    print('Esta es la lista original:\n lista={}'.format(lista))
+    print('Esta es la lista modificada:\n nueva_lista={}'.format(nueva_lista))
+
+
+
     

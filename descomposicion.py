@@ -34,4 +34,3 @@ except ValueError:
     print('Error: Debes introducir un número entero.\nPor favor, inténtalo de nuevo\n')
 
     
-
