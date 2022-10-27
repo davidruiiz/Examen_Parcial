@@ -18,6 +18,4 @@ print(valores)
 valores.pop()
 print(valores)
 valores_repeticion=[]
-#for index in valores:
- #   if index
 
