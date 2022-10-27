@@ -20,16 +20,16 @@ def modificar(lista:list):
     lista_1=[]
     lista_2=[]
     for i in lista: 
-        if i not in lista_1:
+        if i not in lista_1: #Borrar los elementos duplicados
             lista_1.append(i)
 
-    lista_1.sort(reverse=True)
+    lista_1.sort(reverse=True) #ordenar la lista de mayor a menor
 
-    for i in lista_1:
+    for i in lista_1: #eliminar todos los números impares
         if i%2==0:
             lista_2.append(i)
 
-    lista_2.insert(0, sum(lista_2))
+    lista_2.insert(0, sum(lista_2)) #añadir como primer elemento de la lista la suma realizada
 
     return lista_2
 
