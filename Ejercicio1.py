@@ -15,5 +15,13 @@ var_1= "Módulo de Python"
 print(var_1.capitalize())
 print(var_1.lower())
 print(len(var_1))
-calculo=len(var_1)/7
-print(calculo.__round__(4))
+operacion=len(var_1)/7
+print(round(operacion,4))
+
+def funcion1():
+    resultado=12 - (4 * 2) - (2 + 2)
+    return resultado
+
+print((0) //12 - (4 * 2) - (2 + 2))
+
+
