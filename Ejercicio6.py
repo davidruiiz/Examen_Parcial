@@ -38,6 +38,7 @@ nueva_lista=modificar(ejemplo)
 print('\nEJERCICIO 9\n')
 print('Esta es la lista original:\nlista = {}'.format(ejemplo))
 print('Esta es la lista modificada:\nnueva_lista = {}'.format(nueva_lista))
+print(nueva_lista[0]==sum(nueva_lista[1:]),'\n')
 
 
 
