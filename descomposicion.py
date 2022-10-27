@@ -20,7 +20,7 @@ try:
     auxiliar=numero
     contador1=0
     while auxiliar!=0:
-        aux=(aux/10)
+        auxiliar=(auxiliar/10)
         contador1+=1
 
     contador2=0
@@ -31,6 +31,6 @@ try:
         contador2+=1
 except ValueError:
     print('Error: Debes introducir un número entero.\nPor favor, inténtalo de nuevo')
-    
+
     
 
