@@ -11,6 +11,13 @@ lista=[18, 50, 210, 80, 145, 333, 70, 30]
 for index in lista:
    if index%10==0 and index<200:
         print('{} es múltiplo de 10 y menor que 200.'.format(index))
+for index in lista:
+    if index < 300:
+        print('{} es menor que 300.'.format(index))
+    else:
+        break
+
+
 
 
 
