@@ -11,10 +11,11 @@ Crea una nueva lista con la repetición de los elementos de la lista guardada en
 
 valores=[5,3.14,True,'cadena']
 
-print(valores[-1::-2])
-(valores[0],valores[3])=(valores[3],valores[0])
+print(valores[-1::-2])#cada dos elementos desde el final
+(valores[0],valores[3])=(valores[3],valores[0]) #cambiar de posición
 print(valores)
-valores.pop()
+valores.pop()#elimina el último elemento
 print(valores)
 valores_repeticion=[]
+
 
