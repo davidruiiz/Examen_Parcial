@@ -24,3 +24,11 @@ def modificar(lista:list):
             lista_1.append(i)
 
     lista_1.sort(reverse=True)
+
+    for i in lista_1:
+        if i%2==0:
+            lista_2.append(i)
+
+    lista_2.insert(0, sum(lista_2))
+
+    return lista_2
