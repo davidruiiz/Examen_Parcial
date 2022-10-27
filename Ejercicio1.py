@@ -22,6 +22,20 @@ def funcion1():
     resultado=12 - (4 * 2) - (2 + 2)
     return resultado
 
-print((0) //12 - (4 * 2) - (2 + 2))
+def funcion2():
+    resultado=12 - 4 * (2 - 2) + 2
+    return resultado
+
+def funcion3():
+    edad=int(input('Introduce tu edad:\n'))
+    if edad<18:
+        cadena='El usuario es menor de edad.'
+    else:
+        cadena='El usuario es mayor de edad.'
+    return cadena
+
+print(funcion1())
+print(funcion2())
+print(funcion3())
 
 
