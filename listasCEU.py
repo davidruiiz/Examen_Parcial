@@ -19,7 +19,7 @@ print(valores)
 valores_repeticion=[]
 for i in valores:
     for j in valores_repeticion:
-        if i not in valores:
+        if i==j and i not in valores_repeticion:
             valores_repeticion.append(i)
 
 
