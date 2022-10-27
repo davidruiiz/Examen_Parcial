@@ -19,4 +19,8 @@ La función sum(lista) devuelve una suma de los elementos de una lista.
 def modificar(lista:list):
     lista_1=[]
     lista_2=[]
-    
+    for i in lista: 
+        if i not in lista_1:
+            lista_1.append(i)
+
+    lista_1.sort(reverse=True)
