@@ -20,13 +20,13 @@ try:
     auxiliar=numero
     contador1=0
     while auxiliar!=0:
-        auxiliar=(auxiliar/10)
+        auxiliar=int(auxiliar/10)
         contador1+=1
 
     contador2=0
     while numero!=0:
         descomposicion=(numero%10)*(10**contador2)
-        print('{}\n'.format(str(descomposicion.zfill(contador1))))
+        print('{}\n'.format(str(descomposicion).zfill(contador1)))
         numero=int(numero/10)
         contador2+=1
 except ValueError:
