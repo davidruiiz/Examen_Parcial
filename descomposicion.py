@@ -25,5 +25,10 @@ try:
 
     contador2=0
     while numero!=0:
-        numero=aux
+        descomposicion=(numero%10)*(10**contador2)
+        print('{}\n'.format(str(descomposicion.zfill(contador1))))
+        numero=int(numero/10)
+        contador2+=1
+except ValueError:
+    
 
