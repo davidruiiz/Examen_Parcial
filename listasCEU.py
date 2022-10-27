@@ -6,14 +6,13 @@ Define una lista que contenga al menos 4 elementos de todos los tipos de valores
 Selecciona cada dos elementos (uno si otro no) desde el final de la lista.
 Cambia solamente la posición del primer elemento con el último elemento de la lista.
 Elimina el último elemento de la lista modificada en el paso anterior.
-Crea una nueva lista con la repetición de los elemento de la lista guardada en el paso anterior.
+Crea una nueva lista con la repetición de los elementos de la lista guardada en el paso anterior.
 '''
 
 valores=[5,3.14,True,'cadena']
 
 print(valores[-1::-2])
-(a,b)=(valores.index(5),valores.index('cadena'))
-valores[b],valores[a]=valores[a],valores[b]
+(valores[0],valores[3])=(valores[3],valores[0])
 print(valores)
 valores.pop()
 print(valores)
