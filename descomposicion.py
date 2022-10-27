@@ -16,7 +16,8 @@ Que el valor sea un número no significa necesariamente que deba serlo para form
 '''
 
 try:
-    numero=int(input("Introduce un número:\n"))
+    numero=int(input("Introduce un número entero:\n"))
+    print('\nLa descomposición de {} es:\n'.format((numero)))
     auxiliar=numero
     contador1=0
     while auxiliar!=0:
