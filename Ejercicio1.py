@@ -12,9 +12,9 @@ Adjuntar archivo
 
 
 var_1= "Módulo de Python"
-print(var_1.capitalize())
+print(var_1.upper())
 print(var_1.lower())
-print(len(var_1))
+print('El tamaño o longitud de la variable "var_1" es:',len(var_1))
 operacion=len(var_1)/7
 print(round(operacion,4))
 
